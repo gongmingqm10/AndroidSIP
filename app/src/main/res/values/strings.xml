@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SIPSample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">Username</string>
+    <string name="username_hint">Please input your username</string>
+    <string name="password">Password</string>
+    <string name="password_hint">Please input your password</string>
+    <string name="domain">Domain</string>
+    <string name="domain_hint">Please input your domain</string>
+    <string name="login_account">Login to My Account</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_refresh">Connect</string>
+    <string name="call_hint">The call number</string>
+    <string name="call">Call Instantly</string>
+    <string name="callEnd">End Call</string>
+    <string name="action_account">My Account</string>
+    <string name="account">My Account</string>
+
+</resources>
