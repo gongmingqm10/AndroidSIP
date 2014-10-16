@@ -49,4 +49,13 @@
         android:id="@+id/loginBtn"
         />
 
+    <TextView
+        style="@style/label"
+        android:layout_marginTop="8dp"
+        android:id="@+id/register"
+        android:autoLink="web"
+        android:text="@string/register_note"
+        />
+
+
 </LinearLayout>

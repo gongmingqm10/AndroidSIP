@@ -18,5 +18,6 @@
     <string name="callEnd">End Call</string>
     <string name="action_account">My Account</string>
     <string name="account">My Account</string>
+    <string name="register_note">Do not have an account, register now http://www.linphone.org/free-sip-service.html </string>
 
 </resources>
