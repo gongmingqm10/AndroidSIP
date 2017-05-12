@@ -41,7 +41,7 @@ public class LoginActivity extends BaseActivity {
     }
 
     private void init() {
-        getActionBar().setTitle("Login My Account");
+        setTitle("Login My Account");
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

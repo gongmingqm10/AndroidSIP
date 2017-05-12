@@ -126,6 +126,11 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     private void initSip() {
         account = SipApplication.getInstance().getAccount();
         sipManager = SipManager.newInstance(this);
+        if (sipManager == null) {
+            showToast("SIP feature is not supported in your device");
+            return;
+        }
+
         try {
             SipProfile.Builder builder = new SipProfile.Builder(account.getUsername(), account.getDomain());
             builder.setPassword(account.getPassword());
@@ -142,7 +147,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                getActionBar().setTitle(message);
+                setTitle(message);
                 callBtn.setEnabled(STATE_CONNECTED.equals(message));
             }
         });
